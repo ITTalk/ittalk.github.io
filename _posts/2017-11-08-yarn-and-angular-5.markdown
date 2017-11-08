@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Welcome to Jekyll!"
+title:  "Yarn and angular 5"
 date:   2017-11-08 1:12:08 +0200
 categories: angular yarn
 post_author: Sylwester Grabowski
