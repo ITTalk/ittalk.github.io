@@ -1,8 +1,8 @@
 ---
 layout: default
 title:  "Docker Swarm service discovery under the hood"
-date:   2018-02-17
-categories: docker swarm service discovery dns
+date:   2018-05-17
+categories: docker swarm service-discovery
 post_author: Daniel Musiał
 ---
 
