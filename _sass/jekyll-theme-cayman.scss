@@ -4,6 +4,11 @@
 
 @include font-face("Ubuntu Regular", "fonts/ubuntu/Ubuntu-Regular.ttf", null, null, truetype);
 
+@font-face {
+  font-family: "Ubuntu Regular";
+  src: url("/assets/fonts/ubuntu/Ubuntu-Regular.ttf") format('truetype');
+}
+
 @mixin large {
   @media screen and (min-width: #{$large-breakpoint}) {
     @content;
