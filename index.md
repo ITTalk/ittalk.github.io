@@ -10,7 +10,7 @@ layout: default
     
       <div>
         <time datetime="{{ post.date }}">{{ post.date | date: "%B %d, %Y" }}</time>
-        <p>By {{post.post_author}}, in {{post.categories}}</p>
+        <p class="post-title-author">By {{post.post_author}}</p>
         <a href="{{ post.url | prepend: site.baseurl }}" class="post-title-link">
             <h1>{{ post.title }}</h1>
         </a>
