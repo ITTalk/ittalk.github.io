@@ -2,6 +2,8 @@
 @import "rouge-github";
 @import "variables";
 
+@include font-face("ubuntu-regular", "fonts/ubuntu/Ubuntu-Regular.ttf", nul, null, truetype);
+
 @mixin large {
   @media screen and (min-width: #{$large-breakpoint}) {
     @content;
