@@ -80,4 +80,4 @@ Azure AKS was one of the first managed Kubernetes services but definitely not th
  * [Google Kubernetes Engine](https://cloud.google.com/kubernetes-engine/)
  * [Platform9](https://platform9.com/managed-kubernetes/)
 
-If you're looking for more, it is worth to visit Kubernetes setup documentation that discusess [Picking the right solution] (https://kubernetes.io/docs/setup/pick-right-solution/).
+If you're looking for more, it is worth to visit Kubernetes setup documentation that discusess [Picking the right solution](https://kubernetes.io/docs/setup/pick-right-solution/).
