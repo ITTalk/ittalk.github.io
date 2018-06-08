@@ -1,8 +1,8 @@
 ---
 layout: default
-title:  "Managed Kubernetes with Azure Container Service (AKS) - Part 1"
+title:  "Managed Kubernetes with AKS - Part 1"
 date:   2018-02-17
-categories: kubernetes docker azure
+categories: azure docker kubernetes
 post_author: Daniel Musiał
 ---
 
