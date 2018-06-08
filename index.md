@@ -9,10 +9,10 @@ layout: default
   {% for post in site.posts %}
     
       <div>
-        <p class="post-title-author">{{post.post_author}}, <time datetime="{{ post.date }}">{{ post.date | date: "%d %B %Y" }}</time></p>
         <a href="{{ post.url | prepend: site.baseurl }}" class="post-title-link">
             <h1>{{ post.title }}</h1>
         </a>
+        <p class="post-title-author">{{post.post_author}}, <time datetime="{{ post.date }}">{{ post.date | date: "%d %B %Y" }}</time></p>
         <p>
           {{ post.content | truncatewords: 50 | strip_html }}
         </p>
