@@ -1,11 +1,10 @@
 ---
-layout: default
+layout: post
 title:  "Managed Kubernetes with AKS - Part 1"
 date:   2018-02-17
 categories: azure docker kubernetes
 post_author: Daniel Musiał
 ---
-
 It has been clear for quite some time that Kubernetes is winning the Container Orchestration Wars. Being one of the most actively developed open-source projects on GitHub with great community and many successfull production cases at Google, Kubernetes is gaining a lot of interest from developers regardless of their technology or platform of choice. It's not a surprise that big cloud players such as Amazon or Microsoft are heavily investing in Container Orchestration and Container as a Service solutions. In this and the next couple of articles, I'll focus on one of the latest additions to Microsoft's Azure product family - Azure Container Service AKS.
 
 ## AKS vs ACS / Managed vs Unmanaged

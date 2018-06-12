@@ -93,28 +93,54 @@ a {
 
 .page-header {
   color: $header-heading-color;
-  text-align: center;
+  //text-align: center;
   background-color: $header-bg-color;
   background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
 
-  @include large {
-    padding: 2rem 6rem;
-  }
+  // @include large {
+  //   padding: 2rem 6rem;
+  // }
 
-  @include medium {
-    padding: 2rem 4rem;
-  }
+  // @include medium {
+  //   padding: 2rem 4rem;
+  // }
 
-  @include small {
-    padding: 1.5rem 1rem;
-  }
+  // @include small {
+  //   padding: 1.5rem 1rem;
+  // }
+}
+
+.project-logo {
+  max-width: 72rem;
+  margin: 0 auto;
 }
 
 .project-logo img {
-  width: 250px;
+  width: 300px;
+  padding: 1rem 0rem;
 
   @include large {
-    width: 250px;
+    width: 300px;
+  }
+
+  @include medium {
+    width: 200px;
+  }
+
+  @include small {
+    width: 150px;
+  }
+}
+
+.accent-shape {
+  float: right;
+}
+
+.accent-shape img {
+  width: 300px;
+
+  @include large {
+    width: 300px;
   }
 
   @include medium {
@@ -377,4 +403,35 @@ a {
 
 .site-footer-credits {
   color: $blockquote-text-color;
+}
+
+.social-media-panel {
+  display: flex;
+  justify-content: center;
+  font-size:  1.6rem;
+}
+
+.social-media-panel ul {
+  display: flex;
+}
+
+.social-media-panel ul li {
+  list-style: none;
+}
+
+.social-media-panel ul li a {
+  display: block;
+  width: 48px;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  background-color: #ececec;
+  color: #fff;
+  margin: 0 0.2em;
+  border-radius: 50%;
+
+  &:hover {
+    background-color: #2b0a3d;
+
+  }
 }

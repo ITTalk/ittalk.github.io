@@ -16,11 +16,12 @@
 title: IT T@lk
 email: daniel.musial@capgemini.com
 description: >-
-  Looks a bit sad and empty but hey, do sth better after hours :)
+  ITT@lk Technical Blog
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://ittalk.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: CapgeminiPL
 github_username:  ittalk
+facebook_username: CapgeminiPL
 
 # Build settings
 markdown: kramdown

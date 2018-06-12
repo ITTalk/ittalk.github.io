@@ -1,11 +1,10 @@
 ---
-layout: default
+layout: post
 title:  "Docker Swarm service discovery under the hood"
 date:   2018-05-17
 categories: docker swarm service-discovery
 post_author: Daniel Musiał
 ---
-
 Recently I've been facing a couple of issues with Docker Swarm built-in DNS and service discovery mechanisms which made me look under the hood to see what's going on. This post is meant to quickly summarize my findings for future use and also help you understand better how Docker's service discovery is built internally. If you're looking for a more introductory course on the topic, there's plenty resources available freely online.
 
 ## Lab preparation
@@ -116,7 +115,7 @@ SNAT       udp  --  127.0.0.11           0.0.0.0/0            udp spt:48233 to::
 Docker has automatically created DNAT and SNAT rules that help DNS queries to flow to the resolver inside the container. Even though, from the outside, it might seem like the resolver has all the knowledge to resolve service names, all it really does is forward requests to docker daemon running on the host. Docker daemon uses an internal distributed key-value store to retrieve service information and returns it back to the resolver inside the container. If the daemon fails to find required records in the KV store, it forwards further to external DNS server.
 
 
-![Docker Swarm Service Discovery](/assets/images/aaa/DNS.png)
+![Docker Swarm Service Discovery](/assets/images/diagrams/DNS.png)
 
 Source: [Docker](https://success.docker.com/article/ucp-service-discovery)
 
